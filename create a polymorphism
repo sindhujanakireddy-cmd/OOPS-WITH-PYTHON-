@@ -1,0 +1,17 @@
+class payment:
+    def pay(self):
+        print("making payment")
+
+class UPI(payment):
+    def pay(self):
+        print("payment through UPI")
+
+class card(payment):
+    def pay(self):
+        print("payment through card")
+
+p1 = UPI()
+p2 = card()
+
+p1.pay()
+p2.pay()
