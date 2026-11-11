@@ -1,0 +1,16 @@
+class Demo:
+    a = 1
+    b = 2
+    def abc(self):
+        print("abc")
+class sample(Demo):
+    a = 3
+    b = 4
+    def cde(self):
+        print("cde");
+      
+d = Demo()
+s = sample()
+
+d.abc()
+s.cde()
